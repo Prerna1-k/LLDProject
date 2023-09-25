@@ -18,7 +18,7 @@ Input 1:23
 Input 2:45 
 INFO : Output of operation Add is :68 Program ended with exit code: 0
 
-In case of excetion logger class will print error mesage with the error thrown by OPeration class. 
+In case of excetion logger class will print error mesage with the error thrown by IOperation concrete class. 
 
 Output for Exception: 
 What operation is to be performed? Divide
