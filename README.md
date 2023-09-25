@@ -8,7 +8,7 @@ Base Class: IOPerationFactory- Method->createoperation
 
 Dervived Class from IOPerationFactory: AddOperationFactory, DivideOperationFactory, MultiplyOperationFcatory,
 
-Logger class will have same hierarchy as discussed in class. Main Class will have access to AbstractFcatory which will create objects for LoggerFactory and IOPerationFactory. This code will allow user to perform basic operations and give error/info about the same. This code is not supporting UI related changes.
+Logger class will have same hierarchy as discussed in class. Main Class will have access to AbstractFactory which will create objects for ILoggerFactory and IOperationFactory. This code will allow user to perform basic operations and give error/info about the same. This code is not supporting UI related changes.
 
 User will have to provide type of operation to be performed and the input numbers and then output is printed on success by logger class.
 
